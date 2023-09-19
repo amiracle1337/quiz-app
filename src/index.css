@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e5e7ed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-screen > button {
+  background-color: #4D5B9E;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.start-screen > button:hover {
+  background-color: #4D5B9E;
+  opacity: 0.8;
+}
+
+.quiz-container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0.5em 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.quiz-question {
+  font-size: 1.3rem;
+  color: #293264;
+  margin: 20px 10px;
+  max-width: 600px;
+}
+
+.answers-btn {
+  border: solid 1px rgb(155, 155, 155);
+  background-color: transparent;
+  color: #4D5B9E;
+  padding: .5em 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.answers-btn:hover {
+  background: #D6DBF5;
+}
+
+hr {
+  margin-top: 2em;
+  border-color: #f0f0f075;
+}
+
+.check-answers {
+  padding: .8em 1.4em;
+  border-radius: 8px;
+  border: solid 1px grey;
+  background-color: #4D5B9E;
+  color: white;
+  height: 50px;
+  width: 140px;
+  margin: 1em auto;
+  cursor: pointer;
+}
+
+.play-again-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 2em;
+}
+
+.play-again-container > p {
+  font-size: 1.1rem;
+}
+
+.play-again-btn {
+  padding: .8em 1.4em;
+  border-radius: 8px;
+  border: solid 1px grey;
+  background-color: #4D5B9E;
+  color: white;
+  height: 50px;
+  width: 140px;
+  cursor: pointer;
+}
+.play-again-btn:hover {
+  background-color: #3C4A8D;
+}
+
+.check-answers:hover {
+  background-color: #3C4A8D;
+}
+
+
